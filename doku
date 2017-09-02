@@ -1,0 +1,153 @@
+#!/bin/bash
+ROOT_DIR="$(pwd)";
+
+if  [ ! -x $(command -v docker) ]; then
+  echo "Install docker!";
+  exit
+fi
+if [ -f  "$ROOT_DIR/Dockerfile" ]; then
+while read line; do
+  read -r -a array <<< $line;
+  if [ '###' == "${array[0]}" ]; then
+      arg=${array[1]};
+      case $arg in
+        'CONTAINER_ID')
+           CONTAINER_ID="${array[2]}";
+          ;;
+        'IMAGE_ID')
+           IMAGE_ID="${array[2]}";
+          ;;
+        'PORTS')
+           PORTS=${array[*]:2}
+          ;;
+        'VOLUMES')
+           VOLUMES=${array[*]:2}
+          ;;
+      esac
+  fi
+done < "$ROOT_DIR/Dockerfile";
+elif [ ! "init" == "$1" ] && [ ! -f "$ROOT_DIR/Dockerfile" ]; then
+  echo "Could not found Dockerfile in $ROOT_DIR";
+  echo "Sorry..."
+  exit
+fi
+
+function init {
+DEFAULT_DOCKER_FILE="
+FROM alpine:latest
+RUN apk update
+"
+if [ '-p' == $1 ]; then
+  awk 'NF > 1 {print $0}' <<< "$DEFAULT_DOCKER_FILE";
+  exit
+fi;
+if [ ! -f "$ROOT_DIR/Dockerfile" ]; then
+  echo "Writing new Docker file";
+  awk 'NF > 1 {print $0}' <<< "$DEFAULT_DOCKER_FILE";
+  printf "$DEFAULT_DOCKER_FILE" >> "$ROOT_DIR/Dockerfile"
+  exit
+else
+  echo "There is already a Dockerfile, remove that first."
+  exit;
+fi;
+}
+
+function configure {
+CONF_STR="\n\n
+### CONTAINER_ID test_container
+### IMAGE_ID test_image
+### VOLUMES opt:/opt vlm:/vlm
+### PORTS 8080:8080 9090:9090
+";
+if [ '-p' == $1 ]; then
+  awk 'NF > 1 {print $0}' <<< "$CONF_STR";
+  exit
+fi;
+  printf "$CONF_STR" >> "$ROOT_DIR/Dockerfile"
+
+}
+
+function clean {
+  echo "deleting container : $CONTAINER_ID";
+  docker stop $CONTAINER_ID;
+  docker rm -f $CONTAINER_ID;
+
+  echo "deleting image : $IMAGE_ID";
+  docker rmi -f $IMAGE_ID;
+}
+
+function createContainer {
+  vols=();
+  ports=();
+  for vol in ${VOLUMES[*]}; do
+    vols+=" -v$ROOT_DIR/${vol} ";
+  done;
+  for port in ${PORTS[*]}; do
+    ports+=" -p${port} ";
+  done;
+  echo "create container lan!";
+  docker run -dit  ${ports[*]} --name $CONTAINER_ID ${vols[*]} $IMAGE_ID;
+  docker logs $CONTAINER_ID;
+}
+
+function cp2c {
+  docker cp "$1" "$CONTAINER_ID:$2";
+}
+
+function cp2h {
+docker cp "$CONTAINER_ID:$1" "$2" ;
+}
+
+function isConfigured {
+  if [ ! $CONTAINER_ID ] && [ ! $IMAGE_ID ]; then
+    echo "Doku is not configured properly...";
+    exit
+  fi
+}
+
+case "$1" in
+  "start")
+    echo "Starting container : $CONTAINER_ID";
+    isConfigured;
+    docker start $CONTAINER_ID ;
+    ;;
+  "stop")
+    isConfigured;
+    docker stop $CONTAINER_ID ;
+    ;;
+  "build")
+    echo "Building image : $IMAGE_ID";
+    isConfigured;
+    docker build -t "$IMAGE_ID" "$ROOT_DIR"  ;
+    ;;
+  "clean")
+    isConfigured;
+    clean
+    ;;
+  "cp2c")
+    isConfigured;
+    cp2c "$ROOT_DIR/$2" "$3"
+    ;;
+  "cp2h")
+    isConfigured;
+    cp2h "$2" "$ROOT_DIR/$3"
+    ;;
+  "cc"|"cont")
+    isConfigured;
+    createContainer
+    ;;
+  "shell"|"sh")
+    isConfigured;
+    docker exec -it $CONTAINER_ID '/bin/sh';
+    ;;
+  "conf"|"cfg")
+    configure $2
+    ;;
+  "init")
+    init $2
+    ;;
+  *)
+    echo "Usage : doku [ init | build | cc | start | stop | clean | cp2h | cp2c | | sh ]"
+    ;;
+esac
+
