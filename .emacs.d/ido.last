@@ -1,0 +1,224 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/spak/.emacs.d/elpa/" . "js2-mode-20170202.1422/")
+ ("/home/spak/.emacs.d/" . "elpa/")
+ ("/home/spak/projects/eclipse-default-workspace/javo/src/" . "javo/")
+ ("/home/spak/projects/eclipse-default-workspace/javo/" . "src/")
+ ("/home/spak/projects/eclipse-default-workspace/camello/src/main/java/com/camello/" . "camello/")
+ ("/home/spak/projects/eclipse-default-workspace/camello/src/main/java/com/" . "camello/")
+ ("/home/spak/projects/eclipse-default-workspace/camello/src/main/java/" . "com/")
+ ("/home/spak/projects/eclipse-default-workspace/camello/src/main/" . "java/")
+ ("/home/spak/projects/eclipse-default-workspace/camello/src/" . "main/")
+ ("/home/spak/projects/eclipse-default-workspace/camello/" . "src/")
+ ("~/" . "Desktop/")
+ ("/opt/batch/camel-igw/" . "config/")
+ ("/opt/batch/" . "camel-igw/")
+ ("/opt/" . "batch/")
+ ("/home/spak/opt/PPRO/enelmia/consumer/" . "postinbox/")
+ ("/home/spak/opt/PPRO/enelmia/" . "consumer/")
+ ("/home/spak/opt/PPRO/" . "enelmia/")
+ ("/home/spak/opt/" . "PPRO/")
+ ("/home/spak/projects/test/" . "asd/")
+ ("/home/spak/projects/" . "deneng2/")
+ ("/home/spak/" . ".emacs.d/")
+ ("/home/spaakettin/Documents/" . "synclab/")
+ ("/home/spaakettin/development/diziwatch/" . "instance/")
+ ("/home/" . "spak/")
+ ("/" . "home/")
+ ("/home/spaakettin/development/asd/" . "wd/")
+ ("/home/spaakettin/development/" . "asd/")
+ ("/home/spaakettin/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/spak/.emacs.d/"
+ "/home/spak/projects/deneng2/"
+ "/home/spak/projects/eclipse-default-workspace/camello/src/main/java/com/camello/camello/"
+ "/home/spak/projects/eclipse-default-workspace/camello/"
+ "/home/spak/.emacs.d/elpa/eclim-20170522.1354/"
+ "/home/spak/projects/eclipse-default-workspace/javo/src/javo/"
+ "/home/spak/projects/cowsay-3.03/"
+ "/home/spak/Documents/notes/"
+ "/home/spak/projects/"
+ "/home/spak/projects/jdee-server/src/main/java/jde/juci/"
+ "/home/spak/"
+ "/opt/batch/camel-igw/config/"
+ "/home/spak/Desktop/"
+ "/home/spak/projects/test/asd/"
+ "/home/spaakettin/"
+ "/home/spaakettin/Documents/synclab/"
+ "/home/spaakettin/.emacs.d/"
+ "/home/spaakettin/.virtualenvs/"
+ "/home/spaakettin/development/diziwatch/"
+ "/home/spaakettin/development/diziwatch/instance/"
+ "/home/spaakettin/development/asd/wd/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "package.json"
+ "CamelloApplication.java"
+ ".classpath"
+ "eclim-project.el"
+ "ServletMio.java"
+ "pom.xml"
+ ".project"
+ "cowsay"
+ "emacs.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/spak/.emacs.d/" (22971 36972 224339 758000) "session.1061f79cbd3e741656148939796580262200000019080052" "session.10b7d8fc5053678d9f148828516188863500000017040049" "auto-save-list/" "./" "abbrev_defs" "request/" "backups/" "init.el" "session.10bf14f12d710359b3148662780670820200000026770050" "session.10bf14f12d710359b3148667741490341500000026770051" "session.1085cc9d2aea8ea6c014900848108744900000018890051" "bookmarks" "snippets/" "../" "elpa/" "session.10dce82cae4cb0fd58148976326762724400000017910052" "session.103422c6e727544c8b148951254229566900000017230051" "session.10dce82cae4cb0fd58148977494793912100000017910053" "session.10688f1011319065fe148896234753635100000020940051" "ido.last" "session.10d3dfe20e503d82f4148775165965827200000019230052" "eshell/" "session.10ddbb92f4b996a5d8148787889175413200000016640049" "ac-comphist.dat" "session.10729f514bc4f63f46148654225352703500000018200051" "url/" "places")
+
+ ("/home/spak/projects/deneng2/src/app/" (22971 36728 820329 745000) "app.component.html" ".#app.module.ts" "./" "app.component.css" "../" "app.module.ts" "app.component.ts" "#app.module.ts#" "app.component.spec.ts")
+
+ ("/home/spak/projects/" (22971 36155 744306 170000) "./" "typescript-tools/" "linux/" "TTR/" "eclim/" "ponysay/" "dagos/" "../" "auto-java-complete/" "PPRO/" "eclipse-default-workspace/" "etc/" "NetBeansProjects/" "test/" "cowsay-3.03/" "deneng2/" "jdee-server/" "asdasd/" "weclim/")
+
+ ("/home/spak/.emacs.d/elpa/js2-mode-20170202.1422/" (22689 54886 0 0) "js2-mode-autoloads.el" "js2-mode.elc" "./" "js2-old-indent.elc" "js2-mode.el" "js2-imenu-extras.elc" "../" "js2-mode-pkg.el" "js2-old-indent.el" "js2-imenu-extras.el")
+
+ ("/home/spak/" (22970 63969 22266 349000) ".gvfs/" ".python_history" ".vim/" ".m2/" "./" "git/" ".node_repl_history" ".gconf/" "Music/" ".pam_environment" ".npm/" ".Xauthority" ".bashrc" "Downloads/" "opt/" ".icons/" "dock/" ".profile" ".java_base.tag" ".dmrc" ".viminfo" "Public/" ".sudo_as_admin_successful" ".local/" "bin/" ".xinputrc" "eclipse-workspace/" "Documents/" ".gnome2_private/" ".cache/" ".pgadmin/" ".nano/" "Desktop/" ".xsession-errors.old" ".gnome2/" ".themes/" ".sqldeveloper/" ".hplip/" ".netbeans/" ".java/" "Pictures/" ".config/" ".gksu.lock" ".gradle/" ".dbus/" "../" ".oracle_jre_usage/" ".vimrc" ".virtualenvs/" ".netbeans-derby/" ".p2/" ".vagrant.d/" ".eclipse/" ".swt/" ".ssh/" ".emacs.d/" ".mozilla/" ".NERDTreeBookmarks" "Templates/" ".ICEauthority" ".bash_logout" ".thumbnails/" ".gnupg/" ".thunderbird/" ".emacs.bak/" "NetBeansProjects/" ".gimp-2.8/" ".sdbg/" ".audacity-data/" "workbench.xmi" "Videos/" ".cinnamon/" ".nbi/" "get-docker.sh" ".android/" ".eclim/" ".linuxmint/" ".bash_history" ".gitconfig" ".lesshst" "VirtualBox VMs/" ".xsession-errors" ".tooling/" "jdk1.6.0_45/" ".gstreamer-0.10/" "vagbox/" "projects/" ".nvm/" ".emacs.sock")
+
+ ("/home/spak/projects/deneng2/" (22971 33556 40199 225000) "tslint.json" "./" ".gitignore" ".angular-cli.json" "package.json" "README.md" "protractor.conf.js" "../" ".editorconfig" "src/" "karma.conf.js" "tsconfig.json" "node_modules/" "e2e/" "dist/" ".git/")
+
+ ("/home/spak/projects/deneng2/src/" (22971 32032 316136 543000) "polyfills.ts" "./" "tsconfig.spec.json" "app/" "index.html" "tsconfig.app.json" "environments/" "typings.d.ts" "../" "main.ts" "favicon.ico" "styles.css" "test.ts" "assets/")
+
+ ("/home/spak/projects/eclipse-default-workspace/camello/src/main/java/com/camello/camello/" (22970 41034 649322 886000) "./" "CamelloApplication.java" "../")
+
+ ("/home/spak/.emacs.d/elpa/eclim-20170522.1354/" (22970 39549 449261 789000) "eclim-maven.elc" "./" "eclim-macros.elc" "eclimd.elc" "eclim-scala.el" "eclim.elc" "eclim-debug.elc" "eclim-common.el" "eclim-maven.el" "eclim-ant.el" "eclim-debug.el" "eclim-java.elc" "eclim-problems.el" "eclim.el" "eclim-java-run.el" "../" "eclim-pkg.el" "eclim-autoloads.el" "eclim-java.el" "eclim-project.elc" "workbench.xmi" "eclim-project.el" "eclim-java-run.elc" "eclim-ant.elc" "eclim-completion.elc" "eclim-problems.elc" "eclim-common.elc" "eclim-macros.el" "eclim-completion.el" "eclim-scala.elc" "eclimd.el")
+
+ ("/home/spak/.emacs.d/elpa/" (22970 51844 477767 575000) "evil-readme.txt" "json-reformat-20160212.53/" "material-theme-20160908.1538/" "better-defaults-20160619.2308/" "f-20161002.800/" "markdown-mode-20161222.1416/" "json-snatcher-20150511.2047/" "./" "php+-mode-20170215.657/" "let-alist-1.0.5.signed" "tide-readme.txt" "mocha-20161214.839/" "gnupg/" "web-mode-edit-element-readme.txt" "ac-emacs-eclim-20170104.743/" "web-mode-readme.txt" "let-alist-1.0.5/" "seq-2.19.signed" "cl-generic-0.3.signed" "jade-mode-20160525.741/" "scss-mode-20150107.1400/" "ac-html-csswatcher-readme.txt" "ac-html-20151005.31/" "js2-mode-readme.txt" "ac-js2-readme.txt" "flycheck-20170205.248/" "pkg-info-20150517.443/" "popup-20160709.729/" "ng2-mode-20160910.820/" "jdee-readme.txt" "ng2-mode-20170504.2007/" "highlight-indentation-20161012.209/" "ac-js2-20140906.442/" "less-css-mode-20160930.2153/" "dash-20161121.55/" "cl-generic-0.3/" "auto-complete-20170124.1845/" "simple-httpd-20170125.1910/" "yasnippet-readme.txt" "ein-20170201.751/" "jdee-20170506.1514/" "yasnippet-snippets-20170903.857/" "eclim-20170522.1354/" "ng2-mode-readme.txt" "multi-web-mode-readme.txt" "better-defaults-readme.txt" "ivy-20170202.223/" "../" "yasnippet-20170203.626/" "tide-20170911.521/" "ac-html-readme.txt" "typescript-mode-20161130.1944/" "markdown-mode+-20120829.510/" "skewer-mode-20170122.938/" "company-20170112.2005/" "restclient-readme.txt" "archives/" "epl-20150517.433/" "undo-tree-20161012.701/" "tide-20170301.602/" "seq-2.19/" "find-file-in-project-20161202.2205/" "jsx-mode-20130908.1024/" "goto-chg-20131228.659/" "web-mode-20170211.1516/" "flycheck-20170212.1015/" "evil-20170815.1422/" "restclient-20170727.825/" "yasnippet-snippets-readme.txt" "s-20160928.636/" "websocket-20161113.1736/" "json-mode-readme.txt" "neotree-20170201.712/" "pyvenv-20160527.442/" "evil-20160827.1510/" "elpy-20170201.629/" "py-autopep8-20160925.352/" "request-20170131.1747/" "memoize-20170720.1802/" "web-mode-20170906.214/" "jsx-mode-readme.txt" "flycheck-readme.txt" "js2-mode-20170202.1422/" "json-mode-20160803.1606/" "yasnippet-20170828.1908/")
+
+ ("/etc/" (22966 30293 636601 648000) "kerneloops.conf" "lightdm/" "ssl/" "ca-certificates/" "maven/" ".pwd.lock" "rc5.d/" "update-motd.d/" "selinux/" "pm/" "debsig/" "brltty/" "subuid-" "at-spi2/" "rc1.d/" "mercurial/" "issue" "modules" "initramfs-tools/" "profile" "pam.conf" "mke2fs.conf" "logrotate.conf" "insserv.conf.d/" "zsh_command_not_found" "obex-data-server/" "apm/" "purple/" "usb_modeswitch.d/" "xdg/" "magic" "thermald/" "insserv/" "gtk-2.0/" "opt/" "brltty.conf" "cron.d/" "kernel/" "lintianrc" "default/" "ca-certificates.conf" "login.defs" "issue.net" "apparmor/" "chatscripts/" "gss/" "guest-session/" "rc4.d/" "pulse/" "host.conf" "brlapi.key" "libreoffice/" "group-" "apt/" "pki/" "inputrc" "fonts/" "hdparm.conf" "apparmor.d/" "mtools.conf" "gnome/" "vbox/" "vtrgb" "grub.d/" "NetworkManager/" "X11/" "ld.so.conf" "gshadow-" "hosts" "sudoers.d/" "libaudit.conf" "environment" "gufw/" "shadow-" "python/" "doc-base/" "gnome-vfs-2.0/" "python2.7/" "emacs24/" "mailcap" "subgid" "ssh/" "cupshelpers/" "anacrontab" "modprobe.d/" "wodim.conf" "ucf.conf" "skel/" "services" "libpaper.d/" "upstream-release/" "gtk-3.0/" "pcmcia/" ".java/" "rcS.d/" "netscsid.conf" "gimp/" "nanorc" "openvpn/" "menu-methods/" "rsyslog.d/" "console-setup/" "python3.5/" "group" "acpi/" "rc6.d/" "manpath.config" "request-key.d/" "gai.conf" "deluser.conf" "avahi/" "usb_modeswitch.conf" "apport/" "wgetrc" "terminfo/" "pnm2ppa.conf" "vim/" "dbus-1/" "binfmt.d/" "python3/" "alternatives/" "udev/" "subuid" "fwupd.conf" "UPower/" "rc0.d/" "passwd" "gconf/" "sensors3.conf" "ltrace.conf" "resolvconf/" "mime.types" "insserv.conf" "sgml/" "calendar/" "locale.alias" "gdb/" "ntp.conf" "hosts.allow" "papersize" "adduser.conf" "protocols" "legal" "dnsmasq.d/" "ghostscript/" "apg.conf" "rc.local" "locale.gen" "bash_completion" "ufw/" "sane.d/" "network/" "rc2.d/" "shadow" "sysfs.d/" "security/" "subgid-" "inxi.conf" "ld.so.cache" "magic.mime" "logrotate.d/" "os-release" "timezone" "iproute2/" "bindresvport.blacklist" "cron.daily/" "profile.d/" "newt/" "debconf.conf" "crontab" "securetty" "java-8-openjdk/" "samba/" "modules-load.d/" "cron.monthly/" "dpkg/" "tmpfiles.d/" "sysctl.conf" "polkit-1/" "resolv.conf" "gnome-app-install/" "linuxmint/" "iftab" "wpa_supplicant/" "adjtime" "ifplugd/" "sudoers" "rpc" "lsb-release" "libao.conf" "drirc" "localtime" "kbd/" "hddtemp.db" "bluetooth/" "systemd/" "casper.conf" "cups/" "speech-dispatcher/" "hosts.deny" "updatedb.conf" "ImageMagick-6/" "rmt" "mono/" "dictionaries-common/" "upstart-xsessions" "cron.weekly/" "docker/" "groff/" "machine-id" "logcheck/" "fuse.conf" "depmod.d/" "ldap/" "gshadow" "bash_completion.d/" "ld.so.conf.d/" "request-key.conf" "fstab" "perl/" "ppp/" "sensors.d/" "firefox/" "init/" "cracklib/" "init.d/" "bonobo-activation/" "cinnamon/" "bash.bashrc" "lvm/" "passwd-" "nsswitch.conf" "shells" "dkms/" "sound/" "mailcap.order" "sysctl.d/" "debian_version" "hostname" "networks" "kernel-img.conf" "thunderbird/" "pam.d/" "rsyslog.conf" "mtab" "ConsoleKit/" "xml/" "dhcp/" "sysfs.conf" "cron.hourly/" "signond.conf" "hp/" "udisks2/" "libnl-3/" "emacs/" "rc3.d/" "../" "./")
+
+ ("/etc/cron.d/" (22867 51856 0 0) "./" ".placeholder" "../" "anacron")
+
+ ("/home/spak/projects/weclim/ecmacs/src/ecmacs/" (22969 13288 929526 79000) ".#ValidatorDocumentSetupParticipant.java" "ProjectReconciler.java" "./" "ProjectContentAssistProcessor.java" "../" "ProjectHoverProvider.java" "ValidatorDocumentSetupParticipant.java" "#ValidatorDocumentSetupParticipant.java#")
+
+ ("/home/spak/projects/eclipse-default-workspace/javo/src/javo/" (22963 27120 962169 185000) "./" "../" "ServletMio.java")
+
+ ("/home/spak/projects/eclipse-default-workspace/javo/src/" (22963 27120 918169 184000) "./" "../" "javo/")
+
+ ("/home/spak/projects/eclipse-default-workspace/" (22967 65332 403019 741000) "RemoteSystemsTempFiles/" "./" "camello/" "camel/" ".metadata/" "../" "camel-igw/" ".recommenders/" "javo/" "eclimd.log")
+
+ ("/home/spak/projects/eclipse-default-workspace/javo/" (22963 27023 198165 164000) ".project" "./" ".classpath" "bin/" "lib/" "../" "src/" ".settings/")
+
+ ("/home/spak/projects/eclipse-default-workspace/camello/src/main/java/com/camello/" (22949 25722 319432 828000) "./" "camello/" "../")
+
+ ("/home/spak/projects/eclipse-default-workspace/camello/src/main/java/com/" (22949 25722 319432 828000) "./" "camello/" "../")
+
+ ("/home/spak/projects/eclipse-default-workspace/camello/src/main/java/" (22949 25722 319432 828000) "com/" "./" "../")
+
+ ("/home/spak/projects/eclipse-default-workspace/camello/src/main/" (22949 25722 319432 828000) "resources/" "./" "java/" "../")
+
+ ("/home/spak/projects/eclipse-default-workspace/camello/src/" (22949 25722 323432 828000) "./" "../" "test/" "main/")
+
+ ("/home/spak/projects/eclipse-default-workspace/camello/" (22949 25722 339432 829000) ".project" "./" ".classpath" ".gitignore" "mvnw" "pom.xml" ".mvn/" "../" "src/" "target/" "mvnw.cmd" ".settings/")
+
+ ("/home/spak/Desktop/" (22967 33582 336257 3000) "./" "../")
+
+ ("/opt/batch/camel-igw/config/" (22966 23621 505385 335000) "./" "config.properties" "../" "#config.properties#" "config.propertiesX")
+
+ ("/home/spak/projects/cowsay-3.03/" (22966 33379 166369 576000) "Wrap.pm.diff" "./" "ChangeLog" "LICENSE" "cow/" "../" "cows.bak/" "cowsay.1" "cows/" "cowsay" "pgp_public_key.txt" "INSTALL" "MANIFEST" "README" "clean" "install.sh")
+
+ ("/home/spak/projects/test/" (22963 24320 194053 969000) "./" "camello/" "ghj/" "../" "TUTORIAL" "jav/" "q.html" "demo/" "asd/")
+
+ ("/home/spak/Documents/" (22964 18955 279798 271000) "./" "git/" "cv/" "is/" "../")
+
+ ("/home/spak/projects/jdee-server/src/main/java/jde/juci/" (22963 21791 265949 935000) "Quoted.java" "Connection.java" "ConnectionImpl.java" "./" "Cons.java" "ConnectionFactory.java" "package.html" "Symbol.java" "../" "LispWriter.java" "NoMoreResultsException.java" "Logger.java" "WrappedRuntimeException.java" "ConnectionUnavailableException.java" "ElispError.java")
+
+ ("/home/spak/projects/ponysay/src/" (22964 20777 719873 242000) "lists.py" "common.py" "./" "metadata.py" "colourstack.py" "balloon.py" "ponysaytool.py" "kms.py" "../" "spellocorrecter.py" "argparser.py" "backend.py" "__main__.py" "ucs.py" "ponysay.py")
+
+ ("/home/spak/projects/jdee-server/" (22962 43799 916198 997000) "./" ".gitignore" "pom.xml" ".travis.yml" "README.md" "../" "src/" "target/" ".git/")
+
+ ("/home/spak/projects/jdee-server/src/" (22962 43484 12186 2000) "./" "../" "test/" "main/")
+
+ ("/home/spak/projects/jdee-server/src/main/" (22962 43484 12186 2000) "resources/" "./" "java/" "../")
+
+ ("/home/spak/projects/jdee-server/src/main/java/" (22962 43483 984186 1000) "./" "jde/" "../")
+
+ ("/home/spak/projects/jdee-server/src/main/java/jde/" (22962 43484 12186 2000) "wizards/" "./" "parser/" "juci/" "util/" "../")
+
+ ("~/Desktop/" (22962 32312 439774 68000) "./" "Unsaved Document 1" "asdasd.json2" "monsert.sql" "marti/" "Zeki Müren-Hey Gidi Koca Dünya.mp3" "rincontropersistemadiquadraturamarted18.zip" "dock-ppro_enel.sql" "../" "dock-postgres.sql" "asdasd.json" "dock-igw.sql")
+
+ ("~/" (22962 43596 556190 631000) ".gvfs/" ".python_history" ".vim/" ".m2/" "./" ".node_repl_history" ".gconf/" "Music/" ".pam_environment" ".npm/" ".Xauthority" ".bashrc" "Downloads/" "opt/" ".icons/" "dock/" ".profile" ".java_base.tag" ".dmrc" ".viminfo" "Public/" ".sudo_as_admin_successful" ".local/" "bin/" ".xinputrc" "Documents/" ".gnome2_private/" ".cache/" ".pgadmin/" ".nano/" "Desktop/" ".xsession-errors.old" ".gnome2/" ".themes/" ".sqldeveloper/" ".hplip/" ".java/" "Pictures/" ".config/" ".gksu.lock" ".dbus/" "../" ".oracle_jre_usage/" ".vimrc" ".virtualenvs/" ".p2/" ".vagrant.d/" ".eclipse/" ".swt/" ".ssh/" ".emacs.d/" ".mozilla/" ".NERDTreeBookmarks" "Templates/" ".ICEauthority" ".bash_logout" ".thumbnails/" ".gnupg/" ".thunderbird/" ".emacs.bak/" ".emacs.dXXX/" ".gimp-2.8/" ".sdbg/" ".audacity-data/" "Videos/" ".cinnamon/" "get-docker.sh" ".android/" ".linuxmint/" ".bash_history" ".gitconfig" "VirtualBox VMs/" ".xsession-errors" ".tooling/" "jdk1.6.0_45/" ".gstreamer-0.10/" "vagbox/" "projects/" ".nvm/")
+
+ ("/opt/batch/camel-igw/" (22958 26480 177526 715000) "./" "../" "logs/" "config/")
+
+ ("/opt/batch/" (22942 30109 871692 0) "./" "../" "camel-igw/")
+
+ ("/opt/PPRO/" (22958 26376 654667 124000) "./" "../")
+
+ ("/opt/" (22958 26382 710834 390000) "./" "../" "vagrant/" "PPRO/" "batch/")
+
+ ("/home/" (22908 61275 909246 376000) "./" "../" "spak/")
+
+ ("/home/spak/opt/PPRO/enelmia/consumer/postinbox/" (22957 3505 752379 826000) "./" "revoca/" "../")
+
+ ("/home/spak/opt/PPRO/enelmia/consumer/" (22957 3505 740379 489000) "./" "../" "postinbox/")
+
+ ("/home/spak/opt/PPRO/enelmia/" (22957 3505 740379 489000) "./" "consumer/" "../")
+
+ ("/home/spak/opt/PPRO/" (22957 3505 740379 489000) "./" "../" "enelmia/")
+
+ ("/home/spak/opt/" (22957 3505 740379 489000) "android/" "gwt/" "./" "firefoxdev/" "sqldeveloper/" "tomcat8/" "java/" "node-v6.11.2-linux-x64/" "apache-ant-1.9.7/" "apache-ant-1.9.7-bin.zip" "nginx-1.10.3/" "meld-3.17.4/" "../" "tor-browser_en-US/" "firefox26/" "rtlwifi_new/" "PPRO/" "pgadmin4-1.6/" "eclipse/" "pgadmin4/")
+
+ ("/home/spak/Music/" (22908 63924 800909 928000) "./" "../")
+
+ ("/home/spak/projects/test/asd/" (22962 812 540725 531000) "./" "Music/" "data2/" "data/" "../" "qwe/" "priv-app/" "rnd.txt" "priv-app2/")
+
+ ("/home/spak/projects/linux/" (22961 15319 695099 751000) "./" ".gitignore" ".#file1.txt" "file1.txt" "file2.txt" "../" "g.diff" "#file1.txt#" ".git/" "linux-4.13/")
+
+ ("/home/spak/projects/linux/linux-4.13/" (22961 10606 498905 862000) "block/" "drivers/" "Makefile" "./" ".gitignore" "arch/" "tools/" "COPYING" "kernel/" "fs/" "Kbuild" "CREDITS" "Kconfig" "mm/" "include/" "lib/" "scripts/" ".mailmap" "firmware/" ".config" ".cocciconfig" "../" "crypto/" "virt/" ".get_maintainer.ignore" "net/" "security/" "samples/" "ipc/" "usr/" "README" "certs/" "init/" "sound/" "Documentation/" ".gitattributes" "MAINTAINERS")
+
+ ("/home/spaakettin/" (22738 11852 306585 356000) ".celerio/" ".gnome/" "hs_err_pid30100.log" "things/" ".eclipse/" ".subversion/" ".dbshell" ".idlerc/" ".config/" ".redis-commander" ".psql_history" ".nano/" ".eslint" ".webclipse.properties" ".Xauthority" "oracle/" ".p2/" ".gradle/" "javarest/" ".vim/" ".node-gyp/" "../" "Public/" "bin/" "VirtualBox VMs/" ".openshift/" ".IdeaIC2016.3/" ".netbeans/" ".adobe/" ".netbeans-derby/" ".cache/" ".virtualenvs/" ".android/" "hs_err_pid2991.log" ".node_repl_history" ".thunderbird/" "Untitled.ipynb" ".python_history-" ".gnupg/" ".dmrc" ".viminfo" ".gimp-2.8/" ".mongorc.js" "Downloads/" ".dbus/" "hs_err_pid6074.log" ".rpmdb/" ".bash_history" "development/" ".nvm/" ".emacs.d/" ".local/" ".java/" ".sudo_as_admin_successful" "npm-debug.log.2338270039" "Videos/" "Music/" ".jupyter/" "Database.odb_1.odb" ".ssh/" ".gnome2/" ".profile" ".bashrc.backup" ".NERDTreeBookmarks" ".electron/" ".sqlite_history" ".kde/" ".gconf/" ".bashrc.backup1" ".hplip/" "hs_err_pid2819.log" ".mitmproxy/" "examples.desktop" "./" "Pictures/" ".compiz/" ".babel.json" ".squirrel-sql/" ".xsession-errors.old" ".sdkbox/" "mas/" "Untitled1.ipynb" ".webclipse/" ".ICEauthority" ".vimrc" ".nbi/" ".macromedia/" ".oracle_jre_usage/" ".vagrant.d/" ".bashrc" ".xsession-errors" ".v8flags.5.1.281.84.spaakettin.json" "Templates/" ".bash_logout" ".python_history" ".sdbg/" ".mozilla/" "hs_err_pid2581.log" ".mysql/" ".pki/" "npm-debug.log.1462075312" ".oracle/" ".cocos/" ".npm/" ".ipython/" ".gphoto/" ".m2/" ".git-completion.bash" ".gnome2_private/" ".ipynb_checkpoints/" ".git-prompt.bash" "Documents/" "opt/" ".thumbnails/" "hs_err_pid2573.log" "dump.rdb" ".rediscli_history" ".swt/" ".wget-hsts" "Desktop/")
+
+ ("/home/spaakettin/Documents/synclab/" (22736 58993 609397 61000) "project.txt" "descrizione.txt" "Asteonline_Specifiche_CR7_v1.0.doc" "../" "#notes.org#" "MOM_-_AsteOnLine-20130613_1_0.doc" "descrizione progetto.pdf" "./" ".#notes.org" "notes.org")
+
+ ("/home/spaakettin/Documents/" (22735 34854 958051 564000) "bases/" "cv/" "microservices_white_paper.pdf" "contratto.pdf" "lettera di presentazione Ovunc Yayla dicembre 2016.pdf" "../" "Annuncio - PROGRAMMATORI JAVA (BO).doc" "img-170301180106.pdf" "Nuovo documento 3.odg" "sesler49.mp3" "Knoware Contratto Prestazione Ovunc Firmato.pdf" "dev/" "Untitled Folder/" "synclab/" "Knoware Contratto Prestazione Ovunc.pdf" "Knoware_Contratto_Prestazione_Ovunc_v2_signed.pdf" "jersey/" "doc.pdf" "CV Ovunc Ylayla_2016_v2.pdf" "tes.pdf" "Sesler 49. Bölüm.mp4" "CV-Ovunc Yayla.docx" "./" "ZeroMQ/" "OVUNC YAYLA curriculum vitae .pdf" "Ril_Knoware_17_02_Yayla_Ovunc.xlsx" "orgmode.org/" "CU 2017 - Yayla Ovunc.pdf" "Nuovo documento 3.pdf")
+
+ ("/home/spaakettin/.emacs.d/" (22735 2639 39879 300000) "session.10729f514bc4f63f46148654225352703500000018200051" "session.10688f1011319065fe148896234753635100000020940051" "elpa/" "session.10ddbb92f4b996a5d8148787889175413200000016640049" "ido.last" "../" "session.103422c6e727544c8b148951254229566900000017230051" "session.10dce82cae4cb0fd58148976326762724400000017910052" "snippets/" "init.el" "session.10b7d8fc5053678d9f148828516188863500000017040049" "session.10dce82cae4cb0fd58148977494793912100000017910053" "places" "backups/" "./" "session.10bf14f12d710359b3148667741490341500000026770051" "ac-comphist.dat" "session.10bf14f12d710359b3148662780670820200000026770050" "session.10d3dfe20e503d82f4148775165965827200000019230052" "request/" "auto-save-list/" "session.1061f79cbd3e741656148939796580262200000019080052")
+
+ ("/home/spaakettin/.emacs.d/elpa/" (22713 12864 591637 918000) "pkg-info-20150517.443/" "elpy-20170201.629/" "json-reformat-20160212.53/" "archives/" "goto-chg-20131228.659/" "f-20161002.800/" "markdown-mode-20161222.1416/" "better-defaults-20160619.2308/" "s-20160928.636/" "scss-mode-20150107.1400/" "json-snatcher-20150511.2047/" "ac-html-20151005.31/" "dash-20161121.55/" "simple-httpd-20170125.1910/" "php+-mode-20170215.657/" "seq-2.19.signed" "../" "ac-html-csswatcher-readme.txt" "jade-mode-20160525.741/" "request-20170131.1747/" "jsx-mode-readme.txt" "py-autopep8-20160925.352/" "undo-tree-20161012.701/" "material-theme-20160908.1538/" "yasnippet-20170203.626/" "find-file-in-project-20161202.2205/" "tide-20170301.602/" "ivy-20170202.223/" "neotree-20170201.712/" "typescript-mode-20161130.1944/" "ng2-mode-20160910.820/" "flycheck-20170205.248/" "cl-generic-0.3/" "markdown-mode+-20120829.510/" "ac-js2-readme.txt" "flycheck-20170212.1015/" "company-20170112.2005/" "popup-20160709.729/" "less-css-mode-20160930.2153/" "web-mode-edit-element-readme.txt" "flycheck-readme.txt" "./" "js2-mode-readme.txt" "js2-mode-20170202.1422/" "seq-2.19/" "jsx-mode-20130908.1024/" "epl-20150517.433/" "let-alist-1.0.5/" "cl-generic-0.3.signed" "evil-20160827.1510/" "websocket-20161113.1736/" "auto-complete-20170124.1845/" "json-mode-readme.txt" "ein-20170201.751/" "let-alist-1.0.5.signed" "web-mode-20170211.1516/" "gnupg/" "skewer-mode-20170122.938/" "json-mode-20160803.1606/" "pyvenv-20160527.442/" "multi-web-mode-readme.txt" "better-defaults-readme.txt" "highlight-indentation-20161012.209/" "ac-js2-20140906.442/" "mocha-20161214.839/" "ac-html-readme.txt")
+
+ ("/home/spaakettin/.emacs.d/elpa/tide-20170301.602/" (22713 12866 259636 956000) "../" "tide.el" "tide-autoloads.el" "tide.elc" "tide-pkg.el" "./" "tsserver/")
+
+ ("/home/spaakettin/development/node/ex-temp/" (22711 59005 10809 498000) "../" "bin/" "dist/" "webpack.config.js" "server/" "./" "webpack.production.config.js" ".babelrc" "frontend/" "package.json" "node_modules/")
+
+ ("/home/spaakettin/development/node/ex-temp/server/" (22711 59059 691207 991000) "public/" "../" "views/" "config/" "models/" "routes/" "./" "app.js" "server.js")
+
+ ("/home/spaakettin/development/" (22711 53014 981668 193000) "demo.zip" "LICENSE.txt" "README.md" "ReactSpring/" "spring-webflow-samples/" "react-template/" "WebApplication1/" "notes/" "newapp/" "sequelize/" "series/" "mnist/" "app-template/" "Oi/" "electron-react-boilerplate/" "denemeJSF/" "ui-tests/" "primespring/" "watch/" "EA1/" "demo/" "../" "boot-faces/" "app/" "deploy-pages.sh" "mavenproject1/" "dist/" "docspring/" "Electron API Demos-linux-x64/" "crossbar/" "Untitled Folder/" "node/" "mavenproject2/" "synclab/" "tornado/" "electron-quick-start/" ".classpath" "Gruntfile.js" "doki/" "photon-0.1.2-alpha/" "HTML5/" "todo.txt" "presentations/" "jmpress.js/" "JsfJpaCrud/" "spsecuritysamples/" "flask-template/" "www/" "jbossdevstudio/" "svg-notes-2.txt" "ex-temp/" "reactSpring/" "bespoke/" "mavenproject3/" "impress.js/" "wikidoki/" "SkillManagementSystem-2.0/" "jsfFlow/" "./" "spring-mvcsec/" "photon-0.1.2-dist/" "ovuncyayla.github.io/" "doc/" "diziwatch/" "crossbar-examples/" "dokixxx/" "gs-rest-service/" "StageX/" "test/" "STS/" "spring-sec-mvc/" "dagostino/" "h2o-3/" "TestApp/" ".gitignore" ".tern-project" "vido/" "package.json" "node_modules/" ".git/" "asd/")
+
+ ("/home/spaakettin/development/node/" (22711 53020 649635 848000) "../" "ex-temp/" "./")
+
+ ("/home/spaakettin/development/asd/wd/" (22702 57508 772191 210000) "Untitled4.ipynb" "geckodriver.log" "browsermob-proxy/" "csv/" "Untitled2.ipynb" "geckodriver" "details.js" "dizi-100-200.json" "eps1.json" "alldizi.json" "includes/" "watch/" "../" "Parser NoteBook.ipynb" "Untitled5.ipynb" "dizi-0-100.json" "hars/" "chromedriver" "selenium-server-standalone-3.0.1.jar" "Untitled.ipynb" "script.js" "testt/" "dizi-200-300.json" "dizi-500-550.json" "Untitled6.ipynb" "dizipublinks.txt" "eski/" "sql/" "dizi-550-600.json" "dizi-300-400.json" "sc.png" "test.js" "Untitled Document 1" "dizi-600-650.json" "pydispatch.py" "asdasdasd.pyc" "dizi-450-500.json" "./" "bmp.log" "Untitled1.ipynb" "torn/" "links.txt" "diziler.json" "python/" "jenkins/" "dizi-350-400.json" "server.log" "wdio.conf.js" "selen.py" "dizi-650-700.json" ".ipynb_checkpoints/" "Untitled3.ipynb" "package.json" "dizi-400-450.json" "node_modules/")
+
+ ("/home/spaakettin/development/asd/wd/torn/" (22702 59172 422936 727000) "../" ".#gist.py" "#gist.py#" "gist.py" "./")
+
+ ("/home/spaakettin/development/asd/wd/python/webparso/" (22697 39129 208583 829000) "models.pyc" ".#models.py" "__pycache__/" "../" "app.py" "bmobClient.pyc" "#models.py#" "models.py" ".#bmobClient.py" "./" "__init__.py" "config.py" "test_models.py" "test_bMobClient.py" "__init__.pyc" "tests.py" "app.pyc" "bmobClient.py" "config.pyc")
+
+ ("/home/spaakettin/development/flask-template/" (22690 55113 200240 780000) "instance/" "../" "requirements.txt" "main/" "config/" "setup.py" "./" "run.py" ".gitignore" "frontend/")
+
+ ("/home/spaakettin/development/flask-template/frontend/" (22690 52470 938986 357000) "../" "app/" "webpack.config.js" "./" "webpack.production.config.js" ".babelrc" "package.json" "node_modules/")
+
+ ("/home/spaakettin/development/flask-template/frontend/app/" (22690 58524 23304 82000) ".#index.jsx" "components/" "../" "index.tmpl.html" "containers/" "hello.js" "./" "styles/" "index.jsx" "test.json")
+
+ ("/home/spaakettin/.virtualenvs/" (22686 64012 696132 275000) "premkvirtualenv" "initialize" "app-template/" "predeactivate" "../" "meme/" "postactivate" "ai/" "postmkvirtualenv" "postmkproject" "./" "prermvirtualenv" "get_env_details" "diziwatch/" "dagostino/" "premkproject" "preactivate" "postdeactivate" "postrmvirtualenv")
+
+ ("/home/spaakettin/development/diziwatch/" (22687 1033 772056 722000) "instance/" "../" "requirements.txt" "config/" "./" "diziwatch/" "run.py" ".git/")
+
+ ("/home/spaakettin/development/diziwatch/instance/" (22686 64581 524115 468000) "../" "./")
+
+ ("/home/spaakettin/development/asd/wd/watch/" (22681 32363 426914 733000) "untitled.txt" "Alchemy.ipynb" "parso/" "../" "app/" "config.ini" "Alchemy.py" "./" "App.ipynb" "bottle.deployment.gist" ".ipynb_checkpoints/" "bootle.gist")
+
+ ("/home/spaakettin/development/asd/wd/watch/parso/" (22681 50345 204944 200000) "main.py" "__pycache__/" "../" "models.py" "pages.py" "./")
+
+ ("/home/spaakettin/development/asd/" (22657 54173 311977 826000) "t.js" "Solution.class" "includes/" "../" "in.txt" "java" "wd/" "cs.js" "dene.java" "./" "s.js")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

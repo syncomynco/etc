@@ -1,0 +1,1 @@
+("~/NetBeansProjects/tuner/" "~/NetBeansProjects/tuner/target/" "~/git/tomford/" "~/dock/apache/gitspace/" "~/dock/apache/workspace/" "~/projects/lmms/" "~/projects/JavaSoundDemo/" "~/projects/test/ghj/" "~/projects/eclipse-default-workspace/javo/" "/media/spak/SAMSUNG/gamedev/cocos/mathjoy/Classes/" "~/git/lmms/")

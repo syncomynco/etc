@@ -1,0 +1,7 @@
+who
+/bin/bash
+java Main.java 
+exit
+source ~/.bashrc
+source ~/.bashrc
+;;asdasd
