@@ -14,7 +14,7 @@
     magit
     projectile
     ggtags
-    ;;ivy
+    ivy
     swiper
     swiper-helm
     counsel
@@ -23,9 +23,11 @@
     ztree
     dired+
     bookmark+
+;;    dired+
+;;    bookmark+
     yasnippet
     iedit
-    imenu+
+;;    imenu+
     imenu
     smartparens
     f
@@ -37,13 +39,17 @@
     eimp
     web-mode
     log4j-mode
+    logview
     helm-swoop
+    hydra
     paganini-theme))
 
 (mapc #'(lambda (package)
     (unless (package-installed-p package)
       (package-install package)))
       mio-packages)
+
+(require 'dired+)
 
 ;disable backup
 (setq backup-inhibited t)
@@ -52,3 +58,5 @@
 
 (load-file "~/.emacs.d/thirdparty/tp-conf.el")
 (load-file "~/.emacs.d/include/mio-conf.el")
+
+(load-theme 'paganini t)

@@ -60,3 +60,60 @@
 ;; 
 (provide 'mio)
 (provide 'mio-keys)
+
+(use-package log4j-mode
+  :ensure t
+  :disabled t
+  :init
+  (add-hook #'log4j-mode-hook #'view-mode)
+  (add-hook #'log4j-mode-hook #'read-only-mode)
+  (add-hook #'log4j-mode-hook 'eos/turn-on-hl-line))
+
+(use-package view
+  :config
+  (defun View-goto-line-last (&optional line)
+    "goto last line"
+    (interactive "P")
+    (goto-line (line-number-at-pos (point-max))))
+
+  (define-key view-mode-map (kbd "e") 'View-scroll-half-page-forward)
+  (define-key view-mode-map (kbd "u") 'View-scroll-half-page-backward)
+
+  ;; less like
+  (define-key view-mode-map (kbd "N") 'View-search-last-regexp-backward)
+  (define-key view-mode-map (kbd "?") 'View-search-regexp-backward?)
+  (define-key view-mode-map (kbd "g") 'View-goto-line)
+  (define-key view-mode-map (kbd "G") 'View-goto-line-last)
+  ;; vi/w3m like
+  (define-key view-mode-map (kbd "h") 'backward-char)
+  (define-key view-mode-map (kbd "j") 'next-line)
+  (define-key view-mode-map (kbd "k") 'previous-line)
+  (define-key view-mode-map (kbd "l") 'forward-char))
+
+(defun mio/narrow-or-widen-dwim (p)
+  "Widen if buffer is narrowed, narrow-dwim otherwise.
+Dwim means: region, org-src-block, org-subtree, or
+defun, whichever applies first. Narrowing to
+org-src-block actually calls `org-edit-src-code'.
+
+With prefix P, don't widen, just narrow even if buffer
+is already narrowed."
+  (interactive "P")
+  (declare (interactive-only))
+  (cond ((and (buffer-narrowed-p) (not p)) (widen))
+        ((region-active-p)
+         (narrow-to-region (region-beginning)
+                           (region-end)))
+        ((derived-mode-p 'org-mode)
+         ;; `org-edit-src-code' is not a real narrowing
+         ;; command. Remove this first conditional if
+         ;; you don't want it.
+         (cond ((ignore-errors (org-edit-src-code) t)
+                (delete-other-windows))
+               ((ignore-errors (org-narrow-to-block) t))
+               (t (org-narrow-to-subtree))))
+        ((derived-mode-p 'latex-mode)
+         (LaTeX-narrow-to-environment))
+        (t (narrow-to-defun))))
+
+(global-set-key (kbd "C-x C-n") #'mio/narrow-or-widen-dwim)
