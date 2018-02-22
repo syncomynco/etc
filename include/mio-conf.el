@@ -13,7 +13,7 @@
 (ac-config-default)
 ;;(ivy-mode 1)
 (setq magit-completing-read-function 'ivy-completing-read)
-(setq projectile-completion-system 'ivy)
+;;(setq projectile-completion-system 'ivy)
 (setq ivy-use-virtual-buffers t)
 (setq enable-recursive-minibuffers t)
 (projectile-mode 1)
@@ -54,3 +54,10 @@
 (add-to-list 'auto-mode-alist '("\\.less$" . web-mode))
 ;; use web-mode for .css files
 (add-to-list 'auto-mode-alist '("\\.css$" . web-mode))
+
+;; use log4j-mode for .log files
+(add-to-list 'auto-mode-alist '("\\.log$" . viev-mode))
+;;(add-to-list 'auto-mode-alist '("\\.log\\.[.]$" . viev-mode))
+
+(when (fboundp 'winner-mode)
+  (winner-mode 1))

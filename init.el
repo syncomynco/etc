@@ -39,9 +39,10 @@
     eimp
     web-mode
     log4j-mode
-    logview
+;;    logview
     helm-swoop
     hydra
+    use-package
     paganini-theme))
 
 (mapc #'(lambda (package)
@@ -58,5 +59,3 @@
 
 (load-file "~/.emacs.d/thirdparty/tp-conf.el")
 (load-file "~/.emacs.d/include/mio-conf.el")
-
-(load-theme 'paganini t)
