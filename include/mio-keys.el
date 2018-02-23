@@ -2,7 +2,6 @@
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-<f6>") 'helm-ls-git-ls)
 (global-set-key (kbd "C-x C-d") 'helm-browse-project)
-
 (global-set-key "\C-s" 'swiper)
 (global-set-key (kbd "C-c C-r") 'ivy-resume)
 (global-set-key (kbd "<f6>") 'ivy-resume)
@@ -17,17 +16,24 @@
 (global-set-key (kbd "C-c j") 'counsel-git-grep)
 (global-set-key (kbd "C-c k") 'counsel-ag)
 (global-set-key (kbd "C-x l") 'counsel-locate)
-(global-set-key (kbd "C-S-o") 'counsel-rhythmbox)
+(global-set-key (kbd "C-x C-<f11>") #'mio/narrow-or-widen-dwim)
+(global-set-key (kbd "C-<f12>") 'view-mode)
+
 (define-key minibuffer-local-map (kbd "C-r") 'counsel-minibuffer-history)
 
-(defun mio-insert-commit-date-time ()
+(defun mio-insert-date-time (&optional pfx)
   (interactive)
   (setq lpt (parse-time-string (current-time-string)))
-  (insert (format "%02d/%02d/%02d %02d:%02d" (nth 3 lpt)(nth 4 lpt)(nth 5 lpt)(nth 2 lpt)(nth 1 lpt)))
+  (insert (format "%s %02d/%02d/%02d %02d:%02d" pfx (nth 3 lpt)(nth 4 lpt)(nth 5 lpt)(nth 2 lpt)(nth 1 lpt)))
   )
 
+(defun mio-insert-squash-date-time ()
+  (interactive)
+  (mio-insert-date-time "squash!"))
+
 (define-key text-mode-map (kbd "C-q g") 'helm-grep-do-git-grep)
-(define-key text-mode-map (kbd "C-q t") 'mio-insert-commit-date-time)
+(define-key text-mode-map (kbd "C-q t") 'mio-insert-date-time)
+(define-key text-mode-map (kbd "C-q s") 'mio-insert-squash-date-time)
 (define-key dired-mode-map (kbd "SPC") 'dired-subtree-toggle)
 (with-eval-after-load "helm-gtags"
   '(progn
@@ -54,8 +60,8 @@
   (toggle-truncate-lines))
 
 
-;;(local-set-key (kbd "C-q") 'mio-insert-commit-date-time)
-;;(add-hook 'text-mode-hook (lambda() (local-set-key (kbd "C-q t") 'mio-insert-commit-date-time)))
+;;(local-set-key (kbd "C-q") 'mio-insert-date-time)
+;;(add-hook 'text-mode-hook (lambda() (local-set-key (kbd "C-q t") 'mio-insert-date-time)))
 ;;(add-hook 'projectile-mode-hook (lambda() (local-set-key (kbd "C-q g") 'helm-grep-do-git-grep)))
 ;; 
 (provide 'mio)
@@ -75,8 +81,8 @@
     (interactive "P")
     (goto-line (line-number-at-pos (point-max))))
 
-  (define-key view-mode-map (kbd "d") 'View-scroll-half-page-forward)
-  (define-key view-mode-map (kbd "u") 'View-scroll-half-page-backward)
+  (define-key view-mode-map (kbd "w") 'View-scroll-half-page-forward)
+  (define-key view-mode-map (kbd "s") 'View-scroll-half-page-backward)
 
   ;; less like
   (define-key view-mode-map (kbd "N") 'View-search-last-regexp-backward)
@@ -115,5 +121,3 @@ is already narrowed."
         ((derived-mode-p 'latex-mode)
          (LaTeX-narrow-to-environment))
         (t (narrow-to-defun))))
-
-(global-set-key (kbd "C-x C-n") #'mio/narrow-or-widen-dwim)

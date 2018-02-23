@@ -21,8 +21,6 @@
     counsel-gtags
     counsel-projectile
     ztree
-    dired+
-    bookmark+
 ;;    dired+
 ;;    bookmark+
     yasnippet
@@ -50,7 +48,7 @@
       (package-install package)))
       mio-packages)
 
-(require 'dired+)
+;;(require 'dired+)
 
 ;disable backup
 (setq backup-inhibited t)

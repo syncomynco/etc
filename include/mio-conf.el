@@ -69,3 +69,8 @@
          ("\\.md\\'" . markdown-mode)
          ("\\.markdown\\'" . markdown-mode))
   :init (setq markdown-command "multimarkdown"))
+
+(require 'ox-md nil t) ;; enable org-mode markdown backend
+(setq org-log-done 'time) ;; Add done time to TODO's
+;;(org-closed-keep-when-no-todo 1) ;; set to non-nil to keep closing timestamps.
+;;(setq org-log-done 'note) ;; Add note with timestamp
