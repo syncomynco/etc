@@ -31,7 +31,7 @@
   (interactive)
   (mio-insert-date-time "squash!"))
 
-(define-key text-mode-map (kbd "C-q g") 'helm-grep-do-git-grep)
+(define-key projectile-mode-map (kbd "C-q g") 'helm-grep-do-git-grep)
 (define-key text-mode-map (kbd "C-q t") 'mio-insert-date-time)
 (define-key text-mode-map (kbd "C-q s") 'mio-insert-squash-date-time)
 (define-key dired-mode-map (kbd "SPC") 'dired-subtree-toggle)
@@ -56,8 +56,7 @@
 
 (defun mio-refresh-logs ()
   (interactive)
-  (revert-buffer t t t)
-  (toggle-truncate-lines))
+  (revert-buffer t t t))
 
 
 ;;(local-set-key (kbd "C-q") 'mio-insert-date-time)
@@ -83,7 +82,7 @@
 
   (define-key view-mode-map (kbd "w") 'View-scroll-half-page-forward)
   (define-key view-mode-map (kbd "s") 'View-scroll-half-page-backward)
-
+  (define-key view-mode-map (kbd "g") 'mio-refresh-logs)
   ;; less like
   (define-key view-mode-map (kbd "N") 'View-search-last-regexp-backward)
   (define-key view-mode-map (kbd "?") 'View-search-regexp-backward?)
