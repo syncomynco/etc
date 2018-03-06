@@ -55,6 +55,8 @@
 ;; use web-mode for .css files
 (add-to-list 'auto-mode-alist '("\\.css$" . web-mode))
 
+(add-hook 'web-mode-hook (lambda () (tern-mode t)))
+
 ;; use log4j-mode for .log files
 (add-to-list 'auto-mode-alist '("\\.log$" . viev-mode))
 ;;(add-to-list 'auto-mode-alist '("\\.log\\.[.]$" . viev-mode))

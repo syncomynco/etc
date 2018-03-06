@@ -26,3 +26,10 @@
 ;;(require 'dired-ranger)
 (require 'dired-subtree)
 ;;(require 'dired-tagsistant)
+
+(add-to-list 'load-path (concat TP_HOME "tern/emacs"))
+(autoload 'tern-mode "tern.el" nil t)
+(eval-after-load 'tern
+   '(progn
+      (require 'tern-auto-complete)
+      (tern-ac-setup)))

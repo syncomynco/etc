@@ -47,11 +47,14 @@
 
 (defun mio-clear-logs ()
   (interactive)
-  (end-of-buffer)
+  ;;  (end-of-buffer)
+  (read-only-mode -1)
+  (revert-buffer t t t)
   (activate-mark)
   (beginning-of-buffer)
   (delete-region (point-min) (point-max))
-  (write-file))
+  (write-file)
+  (read-only-mode 1))
 
 
 (defun mio-refresh-logs ()
@@ -80,9 +83,10 @@
     (interactive "P")
     (goto-line (line-number-at-pos (point-max))))
 
-  (define-key view-mode-map (kbd "w") 'View-scroll-half-page-forward)
-  (define-key view-mode-map (kbd "s") 'View-scroll-half-page-backward)
+  (define-key view-mode-map (kbd "s") 'View-scroll-half-page-forward)
+  (define-key view-mode-map (kbd "w") 'View-scroll-half-page-backward)
   (define-key view-mode-map (kbd "g") 'mio-refresh-logs)
+  (define-key view-mode-map (kbd "<DEL>") 'mio-clear-logs)
   ;; less like
   (define-key view-mode-map (kbd "N") 'View-search-last-regexp-backward)
   (define-key view-mode-map (kbd "?") 'View-search-regexp-backward?)
