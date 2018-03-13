@@ -18,7 +18,7 @@
 (setq enable-recursive-minibuffers t)
 (projectile-mode 1)
 (setq projectile-switch-project-action 'projectile-dired)
-(setq projectile-indexing-method 'alien) ;; for Windows
+;;(setq projectile-indexing-method 'alien) ;; for Windows
 
 (add-to-list 'load-path "~/.emacs.d/include/")
 (require 'mio-keys)
