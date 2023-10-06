@@ -1,7 +1,7 @@
 #!/bin/bash
 ROOT_DIR="$(pwd)";
 
-if  [ ! -x $(command -v docker) ]; then
+if  [ ! -x "$(command -v docker)" ]; then
   echo "Install docker!";
   exit
 fi
@@ -147,7 +147,7 @@ case "$1" in
     init $2
     ;;
   *)
-    echo "Usage : doku [ init | build | cc | start | stop | clean | cp2h | cp2c | | sh ]"
+    echo "Usage : doku [ init | build | cc | start | stop | clean | cp2h | cp2c | sh ]"
     ;;
 esac
 
